@@ -9,3 +9,11 @@ brew install mysql
 brew install nginx
 
 brew install composer
+
+composer global require laravel/installer
+
+composer global require laravel/valet
+
+valet install
+
+valet start
