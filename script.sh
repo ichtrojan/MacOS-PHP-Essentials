@@ -14,6 +14,8 @@ composer global require laravel/installer
 
 composer global require laravel/valet
 
+test -d ~/.composer && bash ~/.composer/vendor/bin/valet install || bash ~/.config/composer/vendor/bin/valet install
+
 valet install
 
 valet start
